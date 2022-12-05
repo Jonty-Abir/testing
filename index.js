@@ -6,6 +6,6 @@ app.get("/", (req, res) => {
   res.json({ msg: "ok" });
 });
 
-app.listen("https://testing-ten-gules.vercel.app/", () => {
+app.listen(4000, () => {
   console.log("server listening 4000......");
 });
